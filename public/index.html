@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Your Title</title>
+</head>
+
+<body>
+
+    <div id="n_log_in">
+        <input type="text" id="userName" placeholder="Username..." /><br>
+        <input type="password" id="Password" placeholder="Password..." /><br>
+        <button id="Login_Register">Login</button>
+        <button id="Register">Register</button>
+        <h4 id="Duplicado"></h4>
+    </div>
+
+    <div id="log_in" style="display: none;">
+        text
+    </div>
+
+    <ul id="botar" style="display: none;">
+        <li>
+            <label id="candiLabel1" for="">candidato 1</label>
+            <button value="1" class="candidatoHide" id="candidato1">botar</button>
+        </li>
+        <li>
+            <label id="candiLabel2" for="">candidato 2</label>
+            <button value="2" class="candidatoHide" id="candidato2">botar</button>
+        </li>
+        <li>
+            <label id="candiLabel3" for="">candidato 3</label>
+            <button value="3" class="candidatoHide" id="candidato3">botar</button>
+        </li>
+
+        <li>
+            <label id="candiLabel4" for="">candidato 4</label>
+            <button value="4" class="candidatoHide" id="candidato4">botar</button>
+        </li>
+
+    </ul>
+    <button id="salir">Salir</button>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
